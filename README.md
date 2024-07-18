@@ -1,7 +1,7 @@
 # PathPlanning
 
 ## Overview 
-This repository is Path planning Algorithm self stydy
+This repository is Path planning Algorithm self study
 
 ---
 ## Animation
