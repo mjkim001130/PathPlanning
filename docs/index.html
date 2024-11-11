@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CROMA: Companion Robot with Object Manipulation and Autonomy</title>
+  <title>Path Planning</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -43,43 +43,7 @@
 <body>
 
 <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  ... (Navigation content remains unchanged)
 </nav> -->
 
 
@@ -88,55 +52,19 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">CROMA: Companion Robot with Object Manipulation and Autonomy (Ongoing)</h1>
+          <h1 class="title is-1 publication-title">Path Planning Algorithms</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://mjkim001130.github.io/">Minjae Kim</a><sup></sup>,</span>
-            <!-- <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup> -->
-            </span>
+              <a href="https://mjkim001130.github.io/">Minjae Kim</a><sup></sup></span>
+            <!-- Additional authors can be uncommented and added here -->
           </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup></sup>University of Yonsei</span>
-            <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
-              <!-- <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
               <!-- Video Link. -->
               <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=S6fR3Uc9NhI&t=1s"
@@ -147,25 +75,7 @@
                   <span>Video</span>
                 </a>
               </span>
-              <!-- Code Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span> -->
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a> -->
+              <!-- Additional links can be uncommented and added here -->
             </div>
 
           </div>
@@ -179,77 +89,21 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/car.mp4"
+        <source src="./static/videos/teaser.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
         <br>
-        CROMA: Companion Robot with Object Manipulation and Autonomy
+        Path Planning Algorithms for Robotics
         <br>
-        Currently, the robot arm has been programmed to pick up objects using PRM-based path planning. More features are being developed and will continue to be updated.
+        
       </h2>
     </div>
   </div>
 </section>
 
 
-<!-- <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
+<!-- Existing carousel section remains commented out -->
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -259,23 +113,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This project aims to develop a companion robot for home environments, 
-            allowing users to control the robot via voice or text commands to perform tasks. 
-            The robot responds to user commands by executing actions 
-            such as picking up or moving objects (pick-and-place), making it a practical tool for household assistance.
+            This project aims to understand and implement path planning algorithms for robotics.
+            Beginning with the Bug algorithms, it explores a range of fundamental techniques including
+            Probabilistic Roadmaps (PRM), Rapidly-exploring Random Trees (RRT), and Simultaneous Localization and Mapping (SLAM).
           </p>
           <p>
-            For this project, CoppeliaSim is used as the simulation environment, 
-            and the KUKA YouBot model is employed to simulate and test various tasks. 
-            To ensure accurate pathfinding and object manipulation, path planning techniques such as 
-            Probabilistic Roadmap (PRM) and Rapidly-exploring Random Tree (RRT) are integrated,
-            enabling the robot to navigate around obstacles while reaching target positions.
+            Utilizing the coppeliaSim, MATLAB, and Unity, the project evaluates the performance of each algorithm.
+            Bug algorithms employ simple obstacle-following mechanisms to reach the target, while PRM and RRT use 
+            a roadmap of collision-free paths to navigate around obstacles. SLAM, on the other hand,
+            allows for real-time Localization and Mapping, enabling dynamic obstacle avoidance.
           </p>
           <p>
-            The anticipated impact of this project is to enable the robot to serve as a practical household
-            companion, providing daily assistance with object handling and task support. 
-            This functionality has potential applications as an assistive tool for the elderly or disabled, 
-            ultimately improving household efficiency and enhancing the quality of life.
+            <!-- Additional abstract content can be added here if needed -->
           </p>
         </div>
       </div>
@@ -298,169 +147,198 @@
 </section>
 
 
+
 <section class="section">
   <div class="container is-max-desktop">
-
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
-      <div class="column">
+      <!-- Bug Algorithms Section -->
+      <div class="column is-full">
+        <h2 class="title is-3">Bug Algorithms</h2>
+
+        <!-- Bug1 and Bug2 Side by Side -->
+        <div class="columns is-multiline is-centered">
+          
+          <!-- Bug1 -->
+          <div class="column is-half-tablet is-one-third-desktop">
+            <div class="content">
+              <h3 class="title is-4">Bug1</h3>
+              <p>
+                The Bug1 algorithm involves a robot navigating towards a goal while only detecting collisions, 
+                without using any other sensors besides a collision sensor. 
+                In this algorithm, the robot moves towards the target, and when it collides with an obstacle, 
+                it remembers the collision point. Then, it moves around the obstacle until it returns to the initial collision point. 
+                During this process, the robot also remembers the point closest to the goal. Once the robot returns to this closest point, 
+                it continues moving directly towards the target.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Bug2 -->
+          <div class="column is-half-tablet is-one-third-desktop">
+            <div class="content">
+              <h3 class="title is-4">Bug2</h3>
+              <p>
+                Bug2 is very similar to Bug1, but with one key difference: 
+                the robot knows the "line" that connects the start position to the goal. 
+                The robot moves towards the goal, and when it collides with an obstacle, 
+                it follows the same behavior as Bug1 by moving around the obstacle. 
+                However, as soon as the robot finds the line connecting the start to the goal, it immediately follows it towards the goal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ Bug1 and Bug2 Side by Side -->
+
+        <!-- Shared Video for Bug1 and Bug2 -->
+        <div class="columns is-centered mt-5">
+          <div class="column is-two-thirds">
+            <div class="content">
+              <video id="Bug1Bug2-video" controls playsinline height="100%">
+                <source src="./static/videos/Bug1_Bug2.mp4" type="video/mp4">
+                
+              </video>
+            </div>
+          </div>
+        </div>
+        <!--/ Shared Video for Bug1 and Bug2 -->
+
+        <!-- Tangent Bug -->
+        <div class="columns is-centered mt-5">
+          <div class="column is-two-thirds">
+            <div class="content">
+              <h3 class="title is-4">Tangent Bug</h3>
+              <div class="columns is-vcentered">
+                <!-- Text on Left -->
+                <div class="column is-two-thirds">
+                  <p>
+                    The Tangent Bug algorithm uses a radar sensor in addition to a collision sensor. 
+                    This algorithm allows the robot to detect obstacles in its path using the radar sensor, 
+                    helping it calculate the shortest path around the obstacle while still progressing towards the goal. 
+                    The radar sensor continuously measures the distance and direction to obstacles, 
+                    enabling the robot to decide when to follow the obstacle boundary and when to move directly towards the goal.
+                  </p>
+                </div>
+                <!-- Video on Right -->
+                <div class="column is-two-thirds">
+                  <video id="TangentBug-video" controls playsinline height="100%">
+                    <source src="./static/videos/TangentBug.mp4" type="video/mp4">
+                    
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/ Tangent Bug -->
+
+      </div>
+      <!--/ Bug Algorithms Section -->
+
+    </div>
+
+    <!-- Artificial Potential based Planner (APBP) Section -->
+    <div class="columns is-centered mt-6">
+      <div class="column is-two-thirds">
         <div class="content">
-          <h2 class="title is-3">PRM</h2>
-          <p>
-            The Probabilistic Roadmap (PRM) enables the robot arm 
-            to navigate around obstacles to reach and pick up objects. 
-            By generating a roadmap of collision-free paths,
-            PRM helps the robot plan an efficient route to its target.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/PRM.mp4"
-                    type="video/mp4">
-          </video>
+          <h2 class="title is-3">Artificial Potential Based Planner (APBP)</h2>
+          <div class="columns is-vcentered">
+            <!-- Text on Left -->
+            <div class="column is-half">
+              <p>
+                This algorithm is based on gradient descent and ascent. 
+                We define the location of obstacles and apply "forces" towards the goal and away from obstacles. 
+                The main idea is that the goal creates an attractive field, while obstacles create repulsive fields. 
+                It is important to note that these forces are initially defined in the workspace, 
+                but need to be mapped to the configuration space for planning. However, 
+                a critical issue with this algorithm is that the robot can get stuck in local minima, 
+                requiring a new planner to be designed to overcome this limitation.
+              </p>
+            </div>
+            <!-- Video on Right -->
+            <div class="column is-two-thirds">
+              <video id="APBP-video" controls playsinline height="100%">
+                <source src="./static/videos/APBP.mp4" type="video/mp4">
+                
+              </video>
+            </div>
+          </div>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+    </div>
+    <!--/ Artificial Potential Based Planner (APBP) Section -->
 
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">RRT</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              The Rapidly-exploring Random Tree (RRT) algorithm finds a path 
-              by growing a tree from the start point toward random samples, 
-              connecting each step closer to the target while avoiding obstacles.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/RRT.mp4"
-                      type="video/mp4">
+
+    <!-- Sampling Based Methods Section -->
+    <div class="columns is-centered mt-6">
+      <div class="column is-full">
+        <h2 class="title is-3">Sampling Based Methods</h2>
+        
+        <!-- PRM -->
+        <div class="columns is-centered mt-5">
+          <!-- Text on Left -->
+          <div class="column is-half">
+            <div class="content">
+              <h3 class="title is-4">PRM</h3>
+              <p>
+                The Probabilistic Roadmap Method (PRM) involves sampling the configuration space, 
+                performing collision checks with obstacles, building a roadmap, finding neighbors,
+                and connecting edges. PRM works by creating a network of feasible paths through random sampling 
+                and connecting collision-free points. It is particularly suitable for high-dimensional, 
+                complex environments where a roadmap can be precomputed. 
+                However, because it is an "offline" planning method that requires a complete roadmap to be built before finding a solution, 
+                it often has a higher computational cost compared to RRT, which can operate incrementally.
+              </p>
+            </div>
+          </div>
+          <!-- Video on Right -->
+          <div class="column is-half">
+            <video id="PRM-video" controls playsinline height="100%">
+              <source src="./static/videos/PRM.mp4" type="video/mp4">
+              Your browser does not support the video tag.
             </video>
           </div>
-
         </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
+        <!--/ PRM -->
 
-    <!-- Animation. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2> -->
-
-        <!-- Interpolating. -->
-        <!-- <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
+        <!-- RRT -->
+        <div class="columns is-centered mt-5">
+          <!-- Text on Left -->
+          <div class="column is-half">
+            <div class="content">
+              <h3 class="title is-4">RRT</h3>
+              <p>
+                RRT is a sampling-based algorithm for path planning. 
+                It works by sampling random points in the configuration space, 
+                finding the nearest node in the existing tree, and expanding towards the sampled point. 
+                This process is repeated until the goal is reached. 
+                It is efficient in complex environments but can result in suboptimal paths.
+              </p>
             </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
           </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
+          <!-- Video on Right -->
+          <div class="column is-half">
+            <video id="RRT-video" controls playsinline height="100%">
+              <source src="./static/videos/RRT.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
-        <br/> -->
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div> -->
-        <!--/ Re-rendering. -->
+        <!--/ RRT -->
 
       </div>
     </div>
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
-
+    <!--/ Sampling Based Methods Section -->
   </div>
 </section>
 
 
-<!-- <section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
-  </div>
-</section> -->
-
+<!-- Existing Related Links and BibTeX sections remain commented out -->
 
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <!-- <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a> -->
+      <!-- Footer icons can be uncommented and added here -->
     </div>
     <div class="columns is-centered">
       <div class="column is-8">
